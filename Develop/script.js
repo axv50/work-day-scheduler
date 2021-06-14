@@ -4,7 +4,7 @@ $("#currentDay").text(currentDate);
 
 var currentHour = moment().hour();
 
-$(".blockHour").each(functions(){
+$(".blockHour").each(function() {
     var blockHour = $(this).attr("id");
     console.log(blockHour)
 
